@@ -14,7 +14,7 @@ import Books from "./components/Book/Books";
 
 import Index from "./components/Details/Index";
 
-const base_url = " http://localhost:8080/api/movie";
+const base_url = " https://abcbackend.onrender.com/api/movie";
 
 function App() {
   const [obj, setObj] = useState({});
