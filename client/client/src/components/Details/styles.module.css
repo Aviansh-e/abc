@@ -1,0 +1,12 @@
+.movie-container {
+    text-align: center;
+}
+
+.movie-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.movie-details {
+    margin-top: 20px;
+}
