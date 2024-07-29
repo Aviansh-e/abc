@@ -14,7 +14,7 @@ import Books from "./components/Book/Books";
 
 import Index from "./components/Details/Index";
 
-const base_url = process.env.REACT_APP_API_URL;
+const base_url = " http://localhost:8080/api/movie";
 
 function App() {
   const [obj, setObj] = useState({});
