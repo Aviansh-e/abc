@@ -1,4 +1,4 @@
-# Create Wellness Retreat Webpage
+# Created Wellness Retreat Webpage
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
