@@ -24,11 +24,11 @@ export default function Books() {
         }));
     };
 
-    const url = 'http://localhost:8080/api/details';
+    const url = 'https://abcbackend.onrender.com';
     const saveValue = async () => {
 
         try {
-            const response = await axios.post('http://localhost:8080/api/details', inputValue);
+            const response = await axios.post('https://abcbackend.onrender.com/api/details', inputValue);
             console.log('Response:', response.data);
             alert("your data has been  successfully saved");
             navigate('/');
